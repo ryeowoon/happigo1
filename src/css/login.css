@@ -1,0 +1,61 @@
+#main .main_inner { margin: auto; padding-top: 23px; width: 1103px; height: auto; min-height: 673px; }
+#main .main_inner .left { margin-right: 27px; width: 650px; }
+#main .main_inner .left .left_pic { margin-left: 24px; width: 617px; height: 396px; }
+#main .main_inner .left .left_pic img { width: 100%; height: 100%; border: none; }
+#main .main_inner .right { width: 399px; height: 504px; background: url(../images/login_icon_list.png) no-repeat 0 -160px; background-size: 399px 640px; }
+#main .main_inner .right .right_login { margin: auto; width: 349px; height: auto; }
+#main .main_inner .right .right_login .login_title { margin-bottom: 25px; height: 43px; }
+#main .main_inner .right .right_login .login_title .login_title_h2 { font-size: 23px; color: #f11d20; line-height: 43px; font-weight: 600; }
+#main .main_inner .right .right_login .login_title .register_box { height: 100%; font-size: 0; line-height: 43px; }
+#main .main_inner .right .right_login .login_title .register_box span { font-size: 12px; color: #8c8c8e; }
+#main .main_inner .right .right_login .login_title .register_box a { font-size: 12px; color: #c41f3a; }
+#main .main_inner .right .right_login form { width: 100%; height: auto; }
+#main .main_inner .right .right_login form .login_method { margin-bottom: 12px; height: 16px; }
+#main .main_inner .right .right_login form .login_method p { height: 100%; font-size: 12px; color: #000; line-height: 16px; }
+#main .main_inner .right .right_login form .login_method p input { display: inline-block; margin-right: 9px; width: 13px; height: 13px; }
+#main .main_inner .right .right_login form .login_method .method1 { margin-right: 53px; }
+#main .main_inner .right .right_login form .login_box1 { display: block; }
+#main .main_inner .right .right_login form .login_box1 .phone_box { margin-bottom: 15px; height: 62px; }
+#main .main_inner .right .right_login form .login_box1 .phone_box .phone { height: 43px; width: 100%; border: 1px solid #cecece; font-size: 12px; color: #757577; line-height: 41px; text-indent: 6px; }
+#main .main_inner .right .right_login form .login_box1 .phone_box .err_msg { display: none; height: 24px; width: 100%; font-size: 12px; color: #757577; line-height: 24px; }
+#main .main_inner .right .right_login form .login_box1 .sms_verification_code { margin-bottom: 17px; height: 62px; }
+#main .main_inner .right .right_login form .login_box1 .sms_verification_code .sms_verification_code_inner { height: 43px; }
+#main .main_inner .right .right_login form .login_box1 .sms_verification_code .sms_verification_code_inner input { display: block; float: left; height: 100%; font-size: 12px; line-height: 41px; }
+#main .main_inner .right .right_login form .login_box1 .sms_verification_code .sms_verification_code_inner .sms_verification_code_text { margin-right: 19px; width: 181px; text-indent: 6px; }
+#main .main_inner .right .right_login form .login_box1 .sms_verification_code .sms_verification_code_inner .get_btn { width: 131px; color: #000; text-align: center; cursor: pointer; }
+#main .main_inner .right .right_login form .login_box1 .sms_verification_code .err_msg { display: none; height: 24px; width: 100%; font-size: 12px; color: #757577; line-height: 24px; }
+#main .main_inner .right .right_login form .login_box1 .login_btn { display: block; margin-bottom: 13px; width: 100%; height: 44px; background: #f11d20; font-size: 14px; color: #fff; text-align: center; line-height: 44px; }
+#main .main_inner .right .right_login form .login_box1 .other_login_methods p { margin-bottom: 15px; height: 20px; font-size: 12px; color: #000; line-height: 20px; }
+#main .main_inner .right .right_login form .login_box1 .other_login_methods .login_method_list { height: 50px; }
+#main .main_inner .right .right_login form .login_box1 .other_login_methods .login_method_list li { float: left; margin-right: 16px; width: 50px; height: 100%; }
+#main .main_inner .right .right_login form .login_box1 .other_login_methods .login_method_list li a { display: block; width: 100%; height: 100%; background: url(../images/login_icon_list.png) no-repeat 0 0; }
+#main .main_inner .right .right_login form .login_box1 .other_login_methods .login_method_list li:nth-child(1) a { background-position: 0px -31px; }
+#main .main_inner .right .right_login form .login_box1 .other_login_methods .login_method_list li:nth-child(2) a { background-position: -73px -31px; }
+#main .main_inner .right .right_login form .login_box1 .other_login_methods .login_method_list li:nth-child(3) a { background-position: -143px -32px; }
+#main .main_inner .right .right_login form .login_box1 .other_login_methods .login_method_list li:nth-child(4) a { background-position: -294px -53px; }
+#main .main_inner .right .right_login form .login_box2 { display: none; }
+#main .main_inner .right .right_login form .login_box2 .phone_box { margin-bottom: 15px; height: 62px; }
+#main .main_inner .right .right_login form .login_box2 .phone_box .phone { height: 43px; width: 100%; border: 1px solid #cecece; font-size: 12px; color: #757577; line-height: 41px; text-indent: 6px; }
+#main .main_inner .right .right_login form .login_box2 .phone_box .err_msg { display: none; height: 24px; width: 100%; font-size: 12px; color: #757577; line-height: 24px; }
+#main .main_inner .right .right_login form .login_box2 .psw_box { margin-bottom: 15px; height: 62px; }
+#main .main_inner .right .right_login form .login_box2 .psw_box .psw { height: 43px; width: 100%; border: 1px solid #cecece; font-size: 12px; color: #757577; line-height: 41px; text-indent: 6px; }
+#main .main_inner .right .right_login form .login_box2 .psw_box .err_msg { display: none; height: 24px; width: 100%; font-size: 12px; color: #757577; line-height: 24px; }
+#main .main_inner .right .right_login form .login_box2 .verification_code { margin-bottom: 20px; height: 62px; }
+#main .main_inner .right .right_login form .login_box2 .verification_code .verification_code_inner { height: 43px; }
+#main .main_inner .right .right_login form .login_box2 .verification_code .verification_code_inner .verification_code_text { display: block; float: left; margin-right: 20px; width: 200px; height: 43px; border: 1px solid #c8c8c8; font-size: 12px; color: #757577; text-indent: 6px; line-height: 43px; }
+#main .main_inner .right .right_login form .login_box2 .verification_code .verification_code_inner .verify_img { position: relative; overflow: hidden; display: block; float: right; width: 120px; height: 43px; border: none; }
+#main .main_inner .right .right_login form .login_box2 .verification_code .verification_code_inner .verify_img canvas { position: absolute; left: 0; top: 0; }
+#main .main_inner .right .right_login form .login_box2 .verification_code .err_msg { display: none; height: 19px; width: 100%; font-size: 12px; color: #757577; line-height: 19px; }
+#main .main_inner .right .right_login form .login_box2 .remember_username_box { margin-bottom: 14px; height: 13px; }
+#main .main_inner .right .right_login form .login_box2 .remember_username_box p { float: left; margin-right: 170px; font-size: 12px; color: #000; line-height: 13px; }
+#main .main_inner .right .right_login form .login_box2 .remember_username_box p input { margin-right: 5px; width: 13px; height: 13px; }
+#main .main_inner .right .right_login form .login_box2 .remember_username_box a { display: block; float: left; font-size: 12px; color: #000; line-height: 12px; }
+#main .main_inner .right .right_login form .login_box2 .login_btn { display: block; margin-bottom: 13px; width: 100%; height: 44px; background: #f11d20; font-size: 14px; color: #fff; text-align: center; line-height: 44px; }
+#main .main_inner .right .right_login form .login_box2 .login_method_list { height: 50px; }
+#main .main_inner .right .right_login form .login_box2 .login_method_list li { float: left; margin-right: 16px; width: 50px; height: 100%; }
+#main .main_inner .right .right_login form .login_box2 .login_method_list li a { display: block; width: 100%; height: 100%; background: url(../images/login_icon_list.png) no-repeat 0 0; }
+#main .main_inner .right .right_login form .login_box2 .login_method_list li:nth-child(1) a { background-position: 0px -31px; }
+#main .main_inner .right .right_login form .login_box2 .login_method_list li:nth-child(2) a { background-position: -73px -31px; }
+#main .main_inner .right .right_login form .login_box2 .login_method_list li:nth-child(3) a { background-position: -143px -32px; }
+
+/*# sourceMappingURL=login.css.map */

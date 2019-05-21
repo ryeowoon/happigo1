@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <div id="cart">
+        <div id="head">
+            <div class="head_top">
+                <div class="head_top_inner clearfix">
+                    <div class="head_t_l fl">
+                        <div class="head_t_l_inner">
+                            <span class="" id="username_box"></span>
+                            <a href="javascript:;" class="login" id="quit_btn">[退出]</a>
+                        </div>
+                    </div>
+                    <div class="head_t_r fr">
+                        <ul class="head_t_r_inner">
+                            <li>
+                                <a class="menu_item" href="javascript:;">合作招商</a>
+                            </li>
+                            <li>
+                                <i class="line"></i>
+                                <a class="menu_item" href="javascript:;">订单查询</a>
+                            </li>
+                            <li>
+                                <i class="line"></i>
+                                <a class="menu_item" href="javascript:;">我的快乐购</a>
+                            </li>
+                            <li>
+                                <i class="line"></i>
+                                <span href="javascript:;" class="menu_item phone">
+                                    <i class="phone_pic"></i>
+                                    <span class="phone_num">400-705-1111</span>
+                                </span>
+                            </li>
+                            <li>
+                                <i class="line"></i>
+                                <a class="menu_item" href="javascript:;">下载快乐购app</a>
+                            </li>
+                            <li>
+                                <i class="line"></i>
+                                <a class="menu_item server_center" href="javascript:;">
+                                    <span>客服中心</span>
+                                    <span></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="head_bottom">
+                <div class="head_bottom_inner">
+                    <div class="left fl">
+                        <h1 class="logo" id="logo_btn">快乐购</h1>
+                    </div>
+                    <div class="right fr">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main" id="main">
+            <div class="main_inner">
+                <form action="">
+                    <div class="top" id="cart_box1">
+                        <div class="quanxuan_box">
+                            <div>
+                                <input type="checkbox" class="qx_btn" id="select_all_btn1" checked>
+                                <span>全选</span>
+                            </div>
+                            <p class="title1">商品</p>
+                            <p class="title2">单元(元)</p>
+                            <p class="title3">数量</p>
+                            <p class="title4">小计(元)</p>
+                            <p class="title5">操作</p>
+                        </div>
+                        <div class="goods_box">
+                            <div class="goods_shop">
+                                <input type="checkbox" class="qx_btn" id="select_all_btn2" checked>
+                                <h6>快乐购商城</h6>
+                            </div>
+                            <ul class="goods_list" id="goods_list">
+                                <!-- <li class="list_item">
+                                    <div class="goods_quanxuan_box fl">
+                                        <input type="checkbox" class="check_btn" checked>
+                                    </div>
+                                    <div class="goods_infos_box fl">
+                                        <div class="goods_pic fl">
+                                            <a href="javascript:;">
+                                                <img src="../images/2.jpg" alt="#">
+                                            </a>
+                                        </div>
+                                        <div class="goods_name fl">
+                                            <a href="javascript:;">个护美妆</a>
+                                        </div>
+                                    </div>
+                                    <div class="goods_price_box fl">
+                                        <del class="origin_price">￥418.00</del>
+                                        <p class="current_price">￥398.00</p>
+                                    </div>
+                                    <div class="goods_quantity_box fl">
+                                        <div class="quantity_form">
+                                            <a href="javascript:;" class="reduce_btn"></a>
+                                            <input type="number" class="num">
+                                            <a href="javascript:;" class="add_btn">+</a>
+                                        </div>
+                                    </div>
+                                    <div class="goods_total_price_box fl">
+                                        <span class="price">￥23333</span>
+                                    </div>
+                                    <div class="goods_delete_box fl">
+                                        <a href="javascript:;" class="delete_btn">删除</a>
+                                    </div>
+                                </li> -->
+
+                            </ul>
+                        </div>
+                        <div class="jiesuan_box">
+                            <div class="qx_box fl">
+                                <input type="checkbox" class="qx_btn" id="select_all_btn3" checked="checked">
+                                <span>全选</span>
+                            </div>
+                            <div class="js_box fr">
+                                <div class="goods_num fl">已选商品
+                                    <strong id="goods_total_num">7</strong>件</div>
+                                <div class="goods_sum fl">商品总价（不含运费）
+                                    <strong id="goods_total_price">￥1569.00</strong>
+                                </div>
+                                <a href="javascript:;" class="a_btn_buy fl" id="next_submit">去结算</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top1" id="cart_box2">
+                        <div class="top_box_inner">
+                            <div class="cart_pic fl">
+                                <img src="../images/car_no_goods.jpg" alt="">
+                            </div>
+                            <div class="cart_status_prompt fl">
+                                <p>亲，您的购物车空空如也，快去抢购心仪商品吧~</p>
+                                <a href="javascript:;" id="to_buy_btn">立即购买</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="title_box">
+                            <h2 class="title">猜你喜欢</h2>
+                        </div>
+                        <div class="content_box">暂无商品向您推荐</div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer_top">
+                <div class="footer_top_inner">
+                    <ul class="t_box">
+                        <li>
+                            <i class="icon"></i>
+                            <p class="p1">成功上市</p>
+                            <p class="p2">股票代码300413</p>
+                        </li>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="p1">成功上市</p>
+                            <p class="p2">股票代码300413</p>
+                        </li>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="p1">成功上市</p>
+                            <p class="p2">股票代码300413</p>
+                        </li>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="p1">成功上市</p>
+                            <p class="p2">股票代码300413</p>
+                        </li>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="p1">成功上市</p>
+                            <p class="p2">股票代码300413</p>
+                        </li>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="p1">成功上市</p>
+                            <p class="p2">股票代码300413</p>
+                        </li>
+                    </ul>
+                    <div class="c_box clearfix">
+                        <div class="left fl">
+                            <dl>
+                                <dt>使用帮助</dt>
+                                <dd>税费收取规则</dd>
+                                <dd>新手指南</dd>
+                                <dd>用户协议</dd>
+                                <dd>常见问题</dd>
+                            </dl>
+                            <dl>
+                                <dt>会员服务</dt>
+                                <dd>快乐币政策</dd>
+                                <dd>会员等级</dd>
+                                <dd>会员权益</dd>
+                            </dl>
+                            <dl>
+                                <dt>支付方式</dt>
+                                <dd>快乐币支付</dd>
+                                <dd>在线支付</dd>
+                                <dd>货到付款</dd>
+                                <dd>优惠卷支付</dd>
+                            </dl>
+                            <dl>
+                                <dt>配送方式</dt>
+                                <dd>包邮政策</dd>
+                                <dd>配送说明</dd>
+                                <dd>费用说明</dd>
+                            </dl>
+                            <dl>
+                                <dt>售后服务</dt>
+                                <dd>电子发票</dd>
+                                <dd>售后咨询</dd>
+                                <dd>退货政策</dd>
+                                <dd>退货办理</dd>
+                            </dl>
+                            <dl>
+                                <dt>关于我们</dt>
+                                <dd>快乐购有限责任公司介绍</dd>
+                                <dd>联系我们</dd>
+                            </dl>
+                        </div>
+                        <div class="right fl clearfix">
+                            <div class="weixin weixin1 fl">
+                                <h6>手机快乐购</h6>
+                                <div class="weixin_pic weixin_pic1">
+                                    <img src="../images/footer_ewm_01.png" alt="">
+                                </div>
+                                <p>下载移动客户端</p>
+                            </div>
+                            <div class="weixin weixin2 fl">
+                                <h6>快乐购微信</h6>
+                                <div class="weixin_pic weixin_pic2">
+                                    <img src="../images/footer_ewm_02.png" alt="">
+                                </div>
+                                <p>快乐购微信</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="b_box">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">关于快乐购</a>
+                                <span class="line"></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">投资者关系</a>
+                                <span class="line"></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">自营品牌招商</a>
+                                <span class="line"></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">联系我们</a>
+                                <span class="line"></span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">营业证照</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_bottom_inner">
+                    <p class="contact">
+                        <span>Copyright© 2006-2016 happigo. All Rights Reserved</span>
+                        <span>免费服务热线: 400-705-1111 | 固话也可拨打: 400-705-8800</span>
+                        <span>E-Mail: service@happigo.com</span>
+                    </p>
+                    <p class="license">
+                        <span>湘ICP备17009657号</span>
+                        <span>信息网络传播视听节目许可证号：1810530</span>
+                        <span class="pic">
+                            <img src="../images/jh.png" alt="">
+                        </span>
+                        <a href="javascript:;">湘公网安备43010502000556号</a>
+                    </p>
+                    <div class="bottom_box">
+                        <a href="javascript:;">
+                            <img src="../images/hy_124x47 .png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="../images/brand_bottom_small.jpg" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="../images/footer_shuidi.png" alt="">
+                        </a>
+                        <a href="javascript:;">
+                            <img src="../images/footer_img4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/common.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/cart.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    cart();
+</script>
+
+</html>

@@ -1,0 +1,108 @@
+@charset "utf-8";
+#head{
+    padding-top: 33px;
+    padding-bottom: 27px;
+  
+    .head_inner{
+        margin: auto;
+        width: 1103px;
+        height: 75px;
+
+        //logo
+        .head_logo{
+            float: left;
+            width: 80px;
+            height: 100%;
+            
+            a{
+                display: block;
+                width: 100%;
+                height: 100%;
+                font-size: 15px;
+                color: #000;
+                line-height: 75px;
+                text-align: center;
+                text-indent: -999px;
+                background: url(../images/logo.jpg) no-repeat 0 0;
+                background-size: 80px 75px;
+            }
+
+        }
+
+        //图片
+        .head_right{
+            float: right;
+            margin-top: 21px;
+            width: 532px;
+            height: 32px;
+            background: url(../images/top_center.jpg) no-repeat 0 0;
+            background-size: 532px 32px;
+        }
+        
+    }
+}
+
+//foot
+#foot{
+    height: 215px;
+
+    .foot_inner{
+        margin: auto;
+        padding-top: 32px;
+        width: 1103px;
+      
+        //联系方式
+        .contact{
+            margin-bottom: 8px;
+            height: 19px;
+            text-align: center;
+
+            span{
+                font-size: 13px;
+                color: #8b8b8b;
+                line-height: 19px;
+            }
+            
+        }
+
+        //许可证
+        .license{
+            margin-bottom: 37px;
+            height: 19px;
+            text-align: center;
+
+            span{
+                font-size: 13px;
+                color: #8b8b8b;
+                line-height: 19px;
+            }
+        }
+
+        //底部
+        .bottom_box{
+            margin: auto;
+            width: 696px;
+            height: 45px;
+
+            a{
+                display: block;
+                width: 304px;
+                height: 100%;
+                float: left;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                }
+            }
+
+            a:nth-child(1){
+                margin-right: 88px;
+            }
+            
+        }
+
+    }
+
+}

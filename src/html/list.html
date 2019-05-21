@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../css/goodsitem.css">
+
+</head>
+
+<body>
+    <div id="list">
+        <div id="head_box"></div>
+        <div id="main">
+            <div class="main_inner">
+                <!-- 搜索 -->
+                <div class="location_box" id="location_box"></div>
+                <!-- 排序 -->
+                <div class="sort_box">
+                    <!-- 排序 -->
+                    <div class="left fl">
+                        <div class="sort_title fl">排序:</div>
+                        <ul class="sort_type fl">
+                            <li>
+                                <a href="javascript:;" id="default_btn">默认</a>
+                                <i class="default_icon_active" id="default_icon"></i>
+                            </li>
+                            <li>
+                                <a href="javascript:;" id="price_btn">价格</a>
+                                <i class="price_icon" id="price_icon"></i>
+                            </li>
+                            <li>
+                                <a href="javascript:;" id="sale_btn" class="sale_btn">
+                                    <span>销量</span>
+                                    <i class="sale_icon" id="sale_icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 分页 -->
+                    <div class="right fr"></div>
+                </div>
+                <!-- 商品列表 -->
+                <div class="good_list_box">
+                    <ul class="goods_list clearfix" id="goods_list"></ul>
+                </div>
+            </div>
+        </div>
+        <div id="foot_box"></div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/common.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" charset="UTF-8">
+
+    (function () {
+
+        $("#head_box").load("../html/head.html", function () {
+            head('');
+        });
+
+        $("#foot_box").load("../html/foot.html", function () {
+
+        });
+
+    })();
+
+</script>
+<script type="text/javascript" src="../js/list.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    (function () {
+        list();
+    })();
+</script>
+
+</html>

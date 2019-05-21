@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../css/fangdajing.css">
+</head>
+
+<body>
+    <div id="detail">
+        <div id="head_box"></div>
+        <div id="main">
+            <div class="main_inner">
+                <div class="main_top" id="location_box"></div>
+                <div class="main_center clearfix" id="detail_content">
+
+                    <!-- <div class="left fl">
+                        <div class="goods_big_pic" id="goods_big_pic_box"></div>
+                        <div class="goods_small_pic">
+                            <a class="prev_btn" href="javascript:;" id="prev_btn"></a>
+                            <ul class="pic_list" id="goods_small_pic_box"></ul>
+                            <a class="next_btn" href="javascript:;" id="next_btn"></a>
+                        </div>
+                        <div class="goods_collect">
+                            <dl class="number fl">
+                                <dt>编码:</dt>
+                                <dd id="serial_number"></dd>
+                            </dl>
+                            <div class="collect fl">
+                                <a href="javascript:;">
+                                    <i class="icon"></i>
+                                    <span>收藏商品</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="right fl">
+                        <h2 class="goods_name" id="goods_title"></h2>
+                        <p class="goods_describe" id="goods_describe"></p>
+                        <div class="goods_price">
+                            <span class="price_title">快乐价</span>
+                            <span class="current_price" id="current_price"></span>
+                            <del class="origin_price" id="origin_price"></del>
+                        </div>
+                        <div class="goods_freight">
+                            <span class="freight_title">运费</span>
+                            <span class="freight">包邮</span>
+                        </div>
+                        <div class="goods_feature">
+                            <div class="color clearfix">
+                                <span class="color_title">颜色</span>
+                                <ul class="color_list clearfix">
+                                    <li>
+                                        <a href="javascript:;">默认</a>
+                                        <b></b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="size clearfix">
+                                <span class="size_title">尺码</span>
+                                <ul class="size_list clearfix">
+                                    <li>
+                                        <a href="javascript:;">默认</a>
+                                        <b></b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="num clearfix">
+                                <span class="num_title">数量</span>
+                                <div class="num_box">
+                                    <a class="reduce" href="javascript:;" id="reduce_btn">-</a>
+                                    <input class="num_input" type="text" id="purchase_quantity_input">
+                                    <a class="add" href="javascript:;" id="add_btn">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart_box">
+                            <div class="cart">
+                                <a class="buy" href="javascript:;">立即购买</a>
+                                <a class="add_cart" href="javascript:;" id="add_cart_btn">加入购物车</a>
+                            </div>
+                            <p class="prompt_msg">购买最多可以获 2.5 快乐币（抵现金额 2.5 元） 直播商品在线实付满199减10元</p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="main_bottom clearfix">
+                    <div class="left">
+                        <div class="left_inner">
+                            <img src="../images/s1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="right_top">
+                            <img src="../images/s2.png" alt="">
+                        </div>
+                        <div class="right_bottom" id="luyanban_box">
+                            <div class="liuyanban_title">
+                                <h2>用户评价</h2>
+                            </div>
+                            <div class="liuyanban_content">
+                                <div class="liuyanban_title">
+                                    <p>评价心得</p>
+                                    <p>用户满意度</p>
+                                    <p>用户信息</p>
+                                </div>
+                                <ul class="liuyanban_list" id="msg_list">
+                                    <!-- <li class="liuyanban_item clearfix">
+                                        <div class="content_box fl">
+                                            <p class="liuyan">默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评</p>
+                                            <span class="time">2019-04-17</span>
+                                        </div>
+                                        <div class=" level_box fl">
+                                            <div class="level clearfix">
+                                                <i class="icon"></i>
+                                                <i class="icon"></i>
+                                                <i class="icon"></i>
+                                                <i class="icon"></i>
+                                                <i class="icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="user_infos_box fl">
+                                            <div class="user_pic">
+                                            </div>
+                                            <p class="user_name">关trust</p>
+                                        </div>
+                                    </li>
+                                    <li class="liuyanban_item clearfix">
+                                            <div class="content_box fl">
+                                                <p class="liuyan">默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评默认好评</p>
+                                                <span class="time">2019-04-17</span>
+                                            </div>
+                                            <div class=" level_box fl">
+                                                <div class="level clearfix">
+                                                    <i class="icon"></i>
+                                                    <i class="icon"></i>
+                                                    <i class="icon"></i>
+                                                    <i class="icon"></i>
+                                                    <i class="icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="user_infos_box fl">
+                                                <div class="user_pic">
+                                                </div>
+                                                <p class="user_name">关trust</p>
+                                            </div>
+                                    </li> -->
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="foot_box"></div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/common.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/header.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    (function () {
+        //头部
+        $('#head_box').load('head.html', function () {
+            head('');
+        });
+
+        //尾部
+        $('#foot_box').load('foot.html', function () {
+
+        });
+    })();
+
+</script>
+<script type="text/javascript" src="../js/detail.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/fangdajing.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/msgBoard.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    (function () {
+        detail('detail_content');
+        msgboard('msg_list');
+    })();
+    
+    window.onload = function(){
+        MagnifierF("MagnifierWrap2");
+    }
+
+</script>
+
+</html>

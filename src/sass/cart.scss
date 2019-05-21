@@ -1,0 +1,875 @@
+@charset "utf-8";
+//头部
+#head{
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #e6e6e5;
+
+    //头部top
+    .head_top{
+        height: 39px;
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf;
+        background: #f5f5f5;
+
+        .head_top_inner{
+            margin: auto;
+            width: 1202px;
+            height: 100%;
+
+            //左边 登录 注册 退出
+            .head_t_l{
+                padding-top: 2px;
+                height: 100%;
+
+                .head_t_l_inner{
+                    height: 100%;
+                    font-size: 0;
+
+                    //欢迎
+                    span{
+                        display: block;
+                        float: left;
+                        height: 100%;
+                        margin-right: 10px;
+                        height: 100%;
+                        font-size: 12px;
+                        color: #999;
+                        line-height: 32px;                
+                    }
+
+                    //退出
+                    a{
+                        display: block;
+                        float: left;
+                        height: 100%;
+                        padding: 0 10px;
+                        height: 100%;
+                        font-size: 12px;
+                        color: #999;
+                        line-height: 32px;
+                    }
+
+
+                }
+            }
+
+            //右边 
+            .head_t_r{
+                padding-top: 3px;
+                height: 100%;
+
+                .head_t_r_inner{
+
+                    height: 34px;
+
+                    //菜单选项
+                    li{
+                        float: left;
+                        height: 34px;
+                      
+                        //竖线
+                        .line{
+                            display: block;
+                            margin-top: 10px;
+                            float: left;
+                            width: 1px;
+                            height: 14px;
+                            background: #dfdfdf;                      
+                        }
+
+                        //菜单内容
+                        .menu_item{
+                            display: block;
+                            float: left;
+                            padding-left: 9px;
+                            padding-right: 10px;
+                            height: 100%;
+                            font-size: 12px;
+                            line-height: 34px;
+                            color: #8c8c8c;
+
+                            &:hover{
+                                text-decoration: underline;
+                                color: red;
+                            }
+                        }
+
+                        //电话
+                        .phone{                         
+                            
+                            .phone_pic{
+                                display: block;
+                                float: left;
+                                width: 18px;
+                                height: 100%;
+                                background: url(../images/icon_list.png) no-repeat 0 -26px;
+                            }
+                            .phone_num{
+                                display: block;
+                                float: left;
+                                font-size: 12px;
+                                line-height: 34px;
+                                color: #8c8c8c;     
+                            }
+                        }
+                        
+                        //客服中心
+                        .server_center{                           
+                            span{
+                                    display: block;
+                                    float: left;
+                                    height: 100%;
+                            }
+                            span:nth-child(2){
+                                    width: 14px;
+                                    height: 100%;
+                                    background: url(../images/icon_list.png) no-repeat -152px -678px;
+                            }
+                        }          
+
+                    }
+                    
+
+                }
+            }
+        }     
+    }
+
+    .head_bottom{
+        background: #fff;
+        .head_bottom_inner{
+            margin: auto;
+            padding-top: 30px;
+            width: 1202px;
+            height: 150px;  
+    
+
+            //左边
+            .left{
+                width: 72px;
+                height: 100%;
+                //logo
+                .logo{
+                    width: 72px;
+                    height: 68px;  
+                    font-size: 15px;
+                    color: #000;
+                    line-height: 68px;
+                    text-align: center;
+                    text-indent: -999px;
+                    background: url(../images/logo.jpg) no-repeat 0 0;
+                    background-size: 72px 68px;
+                }
+            }
+
+            //右边
+            .right{
+                margin-top: 59px;
+                width: 415px;
+                height: 35px;
+                background: url(../images/order_icon_list.png) no-repeat 0 0;
+                
+
+
+            }
+
+            
+        }
+    }
+}
+
+// main
+#main{
+    width: 100%;
+    height: auto;
+
+    .main_inner{
+        padding-top: 41px;
+        margin: auto;
+        width: 1200px;
+        height: auto;
+
+        form{
+            width: 100%;
+            height: auto;
+            
+            // 购物车商品列表
+            .top{
+                // display: none;
+                width: 100%;
+                height: auto;
+                // 全选
+                .quanxuan_box{
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    margin-bottom: 20px;
+                    width: 100%;
+                    height: 41px;
+                    border: 1px solid #dadada;
+                    background: #efefef;
+
+                    div{
+                        float: left;
+                       
+                        width: 80px;
+                        line-height: 40px;
+                        .qx_btn{
+                            width: 14px;
+                            height: 14px;
+                            
+                        }
+                        span{
+                            font-size: 12px;
+                            color: #000;
+                            
+                        }
+                        
+                        
+                    }
+                    p{
+                        float: left;
+                        font-size: 12px;
+                        color: #000;
+                        line-height: 40px;
+                        
+                    }
+
+                    .title1{
+                        width: 500px;
+                        margin-right: 70px;
+                    }
+                    .title2{
+                        width: 90px;
+                        margin-right: 100px;
+                    }
+                    .title3{
+                        width: 100px;
+                        margin-right: 80px;
+                        text-align: center;
+                    }
+                    .title4{
+                        width: 70px;
+                        margin-right: 10px;
+                        text-align: center;
+                    }
+                    .title5{
+                        width: 58px;
+                        text-align: center;
+                    }
+                   
+                }
+                // 商品列表
+                .goods_box{
+                    margin-bottom: 21px;
+                    height: auto;
+                    // 商店
+                    .goods_shop{
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        width: 100%;
+                        height: 31px;
+                        border-bottom: 2px solid #b2b2b2;
+                        // background: red;
+                        line-height: 29px;
+
+                        .qx_btn{
+                            display: block;
+                            margin-top: 8px;
+                            float: left;
+                            width: 14px;
+                            height: 14px;
+                        }
+
+                        h6{
+                            float: left;
+                            margin-left: 20px;
+                            font-size: 15px;
+                            color:#000;
+                         
+                        }
+                        
+                    }
+                    // 商品列表
+                    .goods_list{
+                       
+                        width: 100%;
+                        height: auto;
+                        border: 1px solid #fdf5f8;
+                        border-left-color: #e5e5e5;
+                        border-right-color: #e5e5e5;
+
+                        .list_item{
+                            padding: 20px;
+                            width: 100%;
+                            height: 129px;
+                            border-bottom: 1px solid #e5e5e5;
+                            
+
+                            .goods_quanxuan_box{
+                                margin-right: 12px;
+                                height: 100%;
+                                width: 14px;
+                               
+                                line-height: 90px;
+
+                                .check_btn{
+                                    width: 100%;
+                                    height: 14px;
+                                }
+
+                            }
+
+                            .goods_infos_box{
+                                margin-right: 70px;
+                                height: 100%;
+                                width: 550px;
+                              
+
+                                .goods_pic{
+                                    margin-right: 12px;
+                                    width: 88px;
+                                    height: 100%;
+
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        border: none;
+                                    }
+
+                                }
+
+                                .goods_name{
+
+                                    a{
+                                        font-size: 13px;
+                                        color: #000;
+                                       
+                                    }
+                                    
+
+                                }
+
+                            }
+
+                            .goods_price_box{
+                                margin-right: 110px;
+                                height: 100%;
+                                width: 90px;
+                                // background: gray;
+
+                                .origin_price{
+                                    display: block;
+                                    height: 12px;
+                                    font-size: 10px;
+                                    line-height: 20px;
+                                    text-align: left;
+                                    color: gray;
+                                }
+
+                                .current_price{
+                                    height: 12px;
+                                    font-size: 10px;
+                                    line-height: 20px;
+                                    text-align: left;
+                                    color: #000;
+
+                                }
+                            }
+
+                            .goods_quantity_box{
+                                margin-right: 70px;
+                                height: 100%;
+                                width: 105px;
+                              
+
+                                .quantity_form{
+                                    height: 28px;
+                                    border: 1px solid gray;
+
+                                    a{
+                                        display: block;
+                                        float: left;
+                                        width: 25px;
+                                        height: 100%;
+                                        font-size: 11px;
+                                        color: #000;
+                                        line-height: 26px;
+                                        text-align: center;
+                                    }
+                                    .reduce_btn{
+                                        border-right: 1px solid gray;
+                                    }
+                                    .add_btn{
+                                        border-left: 1px solid gray;
+                                    }
+                                    .num{
+                                        display: block;
+                                        width: 53px;
+                                        height: 100%;
+                                        float: left;
+                                        border: none;
+                                       
+                                        
+                                    }
+                                }
+                            }
+
+                            .goods_total_price_box{
+                                width: 80px;
+                                height: 100%;
+                                
+                                span{
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    color: red;
+                                    line-height: 28px;
+                                    font-weight: 600;
+                                }
+                            }
+
+                            .goods_delete_box{
+                                width: 55px;
+                                height: 100%;
+                              
+                                text-align: center;
+                                line-height: 28px;
+
+                                .delete_btn{
+                                    font-size: 13px;
+                                    color: #000;
+
+                                }
+                            }
+                        }
+                    }
+                }
+                // 商品列表 end
+
+                // 结算 start
+                .jiesuan_box{
+                    margin-bottom: 44px;
+                    width: 100%;
+                    height: 69px;
+                    border: 2px solid #e8e8e8;
+                    border-bottom-width: 2px;
+                    border-top-width: 2px;
+
+                    .qx_box{
+                        padding-left: 20px;
+                        width: 80px;
+                        line-height: 65px;
+                        .qx_btn{
+                            width: 14px;
+                            height: 14px;
+                        }
+                        span{
+                            font-size: 12px;
+                            color: #000;
+                            line-height: 64px;
+                        }
+                    }
+
+                    .js_box{
+                        .goods_num{
+                            margin-right: 35px;
+                            font-size: 13px;
+                            color: #000;
+                            line-height: 64px;
+                            strong{
+                                padding-left: 5px;
+                                padding-right: 5px;
+                                color: red;
+                                font-size: 16px;
+                                // font-weight: 800px;
+                            }
+                        }
+
+                        .goods_sum{
+                            margin-right: 35px;
+                            font-size: 13px;
+                            color: #000;
+                            line-height: 64px;
+                            strong{
+                                padding-left: 5px;
+                                padding-right: 5px;
+                                color: red;
+                                font-size: 16px;
+                                // font-weight: 800px;
+                            }
+                        }
+
+                        a{
+                            display: block;
+                            width: 118px;
+                            height: 100%;
+                            font-size: 22px;
+                            color: #fff;
+                            line-height: 64px;
+                            text-align: center;
+                            background: red;
+
+                        }
+                    }
+
+                }
+            }
+             //商品列表 top
+            .top1{
+                height: 351px;
+                display: none;
+            
+                
+                .top_box_inner{
+                    margin: auto;
+                    padding-top: 42px;
+                    width: 789px;
+                    height: 100%;
+                    
+                    .cart_pic{
+                        width: 255px;
+                        height: 260px;
+                    
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .cart_status_prompt{
+                        padding-top: 78px;
+                        margin-bottom: 43px;
+                        
+                        p{
+                            margin-bottom: 43px;
+                            font-size: 20px;
+                            color: #000;
+                            line-height: 20px;
+                        }
+                    
+                        a{
+                            display: block;
+                            margin-left: 87px;
+                            width: 209px;
+                            height: 54px;
+                            background: #df0010;
+                            font-size: 20px;
+                            color: #fff;
+                            line-height: 54px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            
+
+            // 猜你喜欢
+            .bottom{
+                width: 100%;
+                height: auto;
+
+                .title_box{          
+                    margin-bottom: 19px;
+                    height: 30px;
+                    border-bottom: 3px solid #ccc;
+
+                    .title{
+                        height: 30px;
+                        font-size: 13px;
+                        color: #000;
+                        line-height: 27px;
+                    }
+                }
+
+                .content_box{
+                    height: auto;
+                    min-height: 132px;
+                    border: 1px solid #f0f0f0; 
+                    border-top-width: 2px;
+                    border-bottom-width: 2px;
+                    font-size: 13px;
+                    color: #bfb4bf;
+                    text-align: center;
+                    line-height: 132px;
+                }
+            }
+
+        }
+        
+
+    }
+}
+
+//尾部
+#footer{
+    width: 100%;
+    background: pink;
+
+    //顶部盒子
+    .footer_top{
+        width: 100%;
+    
+        background: #fff;
+        border-bottom: 4px solid #a90202;
+
+        .footer_top_inner{
+            margin: auto;
+            width: 1202px;
+            height: 100%;
+           
+            //正
+            .t_box{
+                width: 100%;
+                height: 195px;
+                border-bottom: 1px solid #eaeaea;
+
+                li{
+                    
+                    float: left;
+                    padding-top: 49px;
+                    padding-bottom: 42px;
+                    width: 200px;
+                    height: 100%;
+
+                    .icon{
+                        display: block;
+                        margin: 0 auto;
+                        margin-bottom: 9px;
+                        width: 55px;
+                        height: 55px;
+                        background: url(../images/zhengpinbaozhang.png) no-repeat center center;
+                        background-size: 100%;
+                    }
+
+                    .p1{
+                        margin-bottom: 10px;
+                        width: 100%;
+                        height: 14px;
+                        color: #000;
+                        text-align: center;
+                        line-height: 14px;
+                        font-weight: 600;
+                    }
+
+                    .p2{
+                        width: 100%;
+                        height: 15px;
+                        font-size: 15px;
+                        color: #999999;
+                        text-align: center;
+                        line-height: 15px;
+                    }
+
+                }
+            }
+            //
+            .c_box{
+                padding-top: 45px;
+                width: 100%;
+
+                .left{
+                    margin-left: 49px;
+                    width: 850px;        
+
+                    dl{
+                        float: left;
+                        margin-right: 15px;
+                        width: 155px;
+                        height: auto;
+
+                        dt{
+                            margin-bottom: 20px;
+                            width: 100%;
+                            height: 17px;
+                            font-size: 12px;
+                            color: #000;
+                            line-height: 12px;
+                            
+                        }
+                        dd{
+                            margin-bottom: 10px;
+                            width: 100%;
+                            height: 12px;
+                            font-size: 11px;
+                            color: #000;
+                            line-height: 11px;
+                        }
+                    }
+                }
+
+                .right{
+
+                    .weixin{
+                  
+                        width: 102px;
+                        height: 100%;
+
+                        h6{
+                            margin-bottom: 16px;
+                            width: 100%;
+                            height: 12px;
+                            font-size: 12px;
+                            color: #000;
+                            text-align: center;
+                            line-height: 12px;
+                            font-weight: 600;
+                        }
+
+                        .weixin_pic{
+                            margin: auto;
+                            margin-bottom: 11px;
+                            width: 100px;
+                            height: 100px;
+
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+
+                        p{
+                            width: 100%;
+                            height: 12px;
+                            font-size: 12px;
+                            color: #666666;
+                            text-align: center;
+                            line-height: 12px;
+                        }
+                        
+                    }
+
+                    .weixin1{
+                        margin-right: 18px;
+                    }
+
+                    
+                }
+
+            }
+            //
+            .b_box{
+                margin-top: 43px;
+
+                ul{
+              
+                    margin: auto;
+                    height: 32px;
+                    width: 525px;
+                   
+                    li{
+                        float: left;
+                        height: 100%;
+                        font-size: 0;
+                        line-height: 32px;
+                        
+                        a{
+                            display: inline-block;
+                            padding-left: 17px;
+                            padding-right: 20px;
+                            font-size: 14px;
+                            color: #000;
+                        }
+
+                        span{
+                            display: inline-block;
+                            width: 1px;
+                            height: 14px;
+                            background: #a9a9a9;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //底部盒子
+    .footer_bottom{
+        width: 100%;
+        height: 183px;
+        background: #f3f3f3;
+
+        .footer_bottom_inner{
+            margin: auto;   
+            padding-top: 16px;
+            width: 1202px;
+            height: 100%;
+
+            //联系方式
+            .contact{
+                margin-bottom: 8px;
+                height: 19px;
+                text-align: center;
+
+                span{
+                    font-size: 13px;
+                    color: #8b8b8b;
+                    line-height: 19px;
+                }
+
+            }
+
+            //许可证
+            .license{
+                margin-bottom: 37px;
+                height: 21px;
+                text-align: center;
+                font-size: 0;
+                
+                
+
+                span{
+            
+                    font-size: 13px;
+                    color: #8b8b8b;
+                    vertical-align: bottom;
+                }
+                .pic{
+                    display: inline-block;
+                    margin-left: 5px;
+                    width: 21px;
+                    height: 21px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                a{
+                  
+                    font-size: 13px;
+                    color: #000;
+                    vertical-align: bottom;
+                }
+            }
+
+            //底部
+            .bottom_box{
+                margin: auto;
+                height: 45px;
+                font-size: 0;
+                text-align: center;
+
+                a{
+                    display: inline-block;
+                    margin-right: 7px;
+                    width: 110px;
+                    height: 100%;
+                   
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                    }
+                }
+                a:nth-child(4){
+                    margin-right: 0;
+                }
+
+
+            }
+            
+           
+        }
+    }
+
+    
+}

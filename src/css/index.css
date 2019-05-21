@@ -1,0 +1,60 @@
+#banner { width: 100%; height: 440px; }
+#banner .pic_scroll { position: relative; overflow: hidden; height: 100%; width: 100%; }
+#banner .pic_scroll li { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#banner .pic_scroll li img { width: 100%; height: 100%; }
+#banner .pic_scroll .pic_btn { position: absolute; bottom: 17px; height: 5px; text-align: center; font-size: 0; }
+#banner .pic_scroll .pic_btn a { display: inline-block; margin: 0 5.5px; width: 27px; height: 5px; background: #000; opacity: 0.5; }
+#banner .pic_scroll .pic_btn a:nth-child(1) { background: #fff; opacity: 1; }
+
+#main { background: #f3f3f3; padding-top: 37px; }
+#main .main_inner { margin: auto; width: 1200px; height: auto; }
+#main .main_inner .tv_box { margin-bottom: 36px; }
+#main .main_inner .tv_box .tv_content { margin: auto; position: relative; height: 314px; width: 1200px; }
+#main .main_inner .tv_box .tv_content .prev { position: absolute; left: -69px; top: 132px; display: block; width: 54px; height: 54px; border-radius: 50%; background: #ababab; }
+#main .main_inner .tv_box .tv_content .prev img { width: 100%; height: 100%; border: none; }
+#main .main_inner .tv_box .tv_content .next { position: absolute; right: -69px; top: 132px; display: block; width: 54px; height: 54px; border-radius: 50%; background: #ababab; }
+#main .main_inner .tv_box .tv_content .next img { width: 100%; height: 100%; border: none; }
+#main .main_inner .tv_box .tv_content .tv_list_box { position: relative; overflow: hidden; width: 100%; height: 100%; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list { position: absolute; height: 100%; width: 2000px; left: 0px; top: 0px; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item { margin-right: 15px; float: left; width: 390px; height: 100%; background: #fff; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner { display: block; width: 100%; height: 100%; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_pic { margin-bottom: 10px; width: 100%; height: 219px; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_pic img { width: 100%; height: 100%; border: none; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_infos { padding-left: 12px; width: 100%; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_infos .name { margin-bottom: 9px; height: 24px; font-size: 18px; color: #000; line-height: 24px; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_infos .price { height: 34px; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_infos .price .price_left { float: left; padding-top: 7px; height: 100%; font-size: 0; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_infos .price .price_left span { display: inline-block; margin-right: 4px; height: 20px; font-size: 20px; color: #df0010; line-height: 20px; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_infos .price .price_left del { display: inline-block; height: 12px; font-size: 12px; color: #99a1aa; line-height: 12px; }
+#main .main_inner .tv_box .tv_content .tv_list_box .tv_list .list_item .list_item_inner .item_infos .price .price_right { float: right; display: block; margin-right: 11px; width: 89px; height: 43px; background: #fa4b36; border-radius: 20px; font-size: 14px; color: #fff; line-height: 43px; text-align: center; cursor: pointer; }
+#main .main_inner .newgoods_box { margin-bottom: 36px; }
+#main .main_inner .newgoods_box .goods_box_title { position: relative; }
+#main .main_inner .newgoods_box .goods_box_title .xinpin_prompt { position: absolute; font-size: 15px; color: #000; bottom: 5px; left: 107px; }
+#main .main_inner .newgoods_box .goods_box_title .change_btn { position: absolute; font-size: 15px; color: #000; bottom: 5px; right: 0px; }
+#main .main_inner .newgoods_box .xinpin_goods_box { width: 100%; height: 418px; overflow: hidden; }
+#main .main_inner .activity_box { margin-bottom: 36px; }
+#main .main_inner .activity_box .activity_box_content { height: auto; }
+#main .main_inner .activity_box .activity_box_content .event_box { margin-bottom: 6px; height: auto; }
+#main .main_inner .activity_box .activity_box_content .event_box .activity_pic { margin-bottom: 14px; height: 308px; }
+#main .main_inner .activity_box .activity_box_content .event_box .activity_pic a { display: block; width: 100%; height: 100%; }
+#main .main_inner .activity_box .activity_box_content .event_box .activity_pic a img { width: 100%; height: 100%; border: none; }
+#main .main_inner .end_line_box { height: 35px; }
+#main .main_inner .end_line_box .end_line { display: none; margin: auto; height: 100%; width: 340px; }
+#main .main_inner .end_line_box .end_line p { float: left; }
+#main .main_inner .end_line_box .end_line .end { height: 100%; width: 80px; font-size: 13px; color: #cacace; line-height: 35px; text-align: center; }
+#main .main_inner .end_line_box .end_line .line { margin-top: 17px; width: 130px; height: 1px; background: #cacace; }
+#main .main_inner .end_line_box .load_btn { margin: auto; width: 340px; height: 100%; font-size: 18px; font-weight: 600; color: #000; text-align: center; line-height: 35px; cursor: pointer; }
+
+#menu_box { position: fixed; left: 0; bottom: 0; display: block; width: 100%; height: 90px; background: red; }
+#menu_box .menu_box_content { position: relative; height: 90px; }
+#menu_box .menu_box_content img { width: 100%; height: 100%; border: none; }
+#menu_box .menu_box_content .close_btn { position: absolute; right: 10px; top: 10px; width: 20px; height: 20px; background: grey; border-radius: 50%; }
+
+#top_menu { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 54px; background: #f11323; }
+#top_menu .top_menu_inner { margin: auto; width: 1200px; height: 100%; }
+#top_menu .top_menu_inner .top_menu_logo { float: left; width: 101px; height: 100%; background: url(../images/logo.jpg) no-repeat 0 0; background-size: 100%; }
+#top_menu .top_menu_inner .top_menu_search { float: left; margin-left: 175px; height: 100%; }
+#top_menu .top_menu_inner .top_menu_search .search_text { float: left; margin-left: 10px; margin-top: 7px; width: 475px; height: 40px; background: #fff; border: none; border-radius: 18px; }
+#top_menu .top_menu_inner .top_menu_search .s_btn { display: block; float: left; margin-left: 20px; width: 50px; height: 100%; font-size: 16px; color: #fff; line-height: 54px; }
+
+/*# sourceMappingURL=index.css.map */

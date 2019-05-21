@@ -1,0 +1,433 @@
+@charset "utf-8";
+// banner
+#banner{
+    width: 100%;
+    height: 440px;
+
+    //轮播图
+    .pic_scroll{
+
+        position: relative; 
+        overflow: hidden; 
+        height: 100%; 
+        width: 100%;
+
+        //图片
+        li{
+            position: absolute; 
+            top: 0; 
+            left: 0;
+            width: 100%; 
+            height: 100%;
+
+            img{
+                width: 100%; 
+                height: 100%;
+            }
+        }
+
+        //图片按钮
+        .pic_btn{
+            position: absolute; 
+            bottom: 17px; 
+            height: 5px; 
+            text-align: center; 
+            font-size: 0;
+
+            a{
+                display: inline-block; 
+                margin: 0 5.5px; 
+                width: 27px; 
+                height: 5px; 
+                background: #000; 
+                opacity: 0.5;
+            }
+
+            a:nth-child(1){
+                background: #fff; 
+                opacity: 1; 
+            }
+        }
+    }
+}
+
+
+// main
+#main{
+    background: #f3f3f3;
+    padding-top: 37px;
+    .main_inner{
+        margin: auto;
+        width: 1200px;
+        height: auto;
+
+        //tv直播
+        .tv_box{
+            margin-bottom: 36px;
+            .tv_content{
+                margin: auto;
+                position: relative;
+                height: 314px;
+                width: 1200px;
+            
+                //上一张
+                .prev{
+                    position: absolute;
+                    left: -69px;
+                    top: 132px;
+                    display: block;
+                    width: 54px;
+                    height: 54px;
+                    border-radius: 50%;
+                    background: #ababab;
+                  
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                    }
+                }
+            
+                //下一张
+                .next{
+                    position: absolute;
+                    right: -69px;
+                    top: 132px;
+                    display: block;
+                    width: 54px;
+                    height: 54px;
+                    border-radius: 50%;
+                    background: #ababab;
+            
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                    }
+                }
+            
+                .tv_list_box{
+                    position: relative;
+                    overflow: hidden;
+                    width: 100%;
+                    height: 100%;
+            
+                    .tv_list{
+                        position: absolute;
+                        height: 100%;
+                        width: 2000px;
+                        left: 0px;
+                        top: 0px;
+                        // background: red;
+                
+                        //li
+                        .list_item{
+                            margin-right: 15px;
+                            float: left;
+                            width: 390px;
+                            height: 100%;
+                            background: #fff;
+                
+                            //a
+                            .list_item_inner{
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                
+                                //图片
+                                .item_pic{
+                                    margin-bottom: 10px;
+                                    width: 100%;
+                                    height: 219px;
+                
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                        border: none;
+                                    }
+                                }
+                
+                                //item相关信息
+                                .item_infos{
+                                    padding-left: 12px;
+                                    width: 100%;
+                                    
+                                    .name{
+                                        margin-bottom: 9px;
+                                        height: 24px;
+                                        font-size: 18px;
+                                        color: #000;
+                                        line-height: 24px;
+                                    }
+                
+                                    //价格
+                                    .price{
+                                        height: 34px;
+                
+                                        .price_left{
+                                            float: left;
+                                            padding-top: 7px;
+                                            height: 100%;
+                                            font-size: 0;
+                                            
+                                            //现价
+                                            span{
+                                                display: inline-block;
+                                                margin-right: 4px;
+                                                height: 20px;
+                                                font-size: 20px;
+                                                color: #df0010;
+                                                line-height: 20px;
+                                            }
+                
+                                            del{
+                                                display: inline-block;
+                                                height: 12px;
+                                                font-size: 12px;
+                                                color: #99a1aa;
+                                                line-height: 12px;
+                                            }
+                                             
+                                        }
+                                        
+                                        //立即购买
+                                        .price_right{
+                                            float: right;
+                                            display: block;
+                                            margin-right: 11px;
+                                            width: 89px;
+                                            height: 43px;
+                                            background: #fa4b36;
+                                            border-radius: 20px;
+                                            font-size: 14px;
+                                            color: #fff;
+                                            line-height: 43px;
+                                            text-align: center;
+                                            cursor: pointer;
+                                        }
+                
+                                    }
+                
+                                }
+                
+                
+                            }
+                        }
+                    }
+            
+                }
+                
+            
+                
+            }
+
+            
+        }
+        //新品推荐
+        .newgoods_box{   
+                   
+            margin-bottom: 36px;
+            .goods_box_title{
+                position: relative;
+
+                .xinpin_prompt{
+                    position: absolute;
+                    font-size: 15px;
+                    color: #000;
+                    bottom: 5px;
+                    left: 107px;
+    
+                }
+    
+                .change_btn{
+                    position: absolute;
+                    font-size: 15px;
+                    color: #000;
+                    bottom: 5px;
+                    right: 0px;
+                }
+
+            }
+            
+            .xinpin_goods_box{
+                
+                width: 100%;
+                height: 418px;
+                overflow: hidden;
+            }
+            
+        }
+
+        // 精选活动
+        .activity_box{
+            margin-bottom: 36px;
+          
+            .activity_box_content{
+                height: auto;
+                .event_box{
+                    margin-bottom: 6px;
+                    height: auto;
+                    //图片
+                    .activity_pic{
+                        margin-bottom: 14px;
+                        height: 308px;
+                        a{
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                border: none;
+                            }
+                        }
+                    }
+
+                    
+                }
+
+            }
+        }
+
+        // 优选好物
+        // 结束线
+        .end_line_box{
+            height: 35px;
+
+            .end_line{
+                display: none;
+                margin: auto;
+                height: 100%;
+                width: 340px;
+                // background: pink;
+
+                p{
+                    float: left;
+                }
+                
+                .end{
+                    height: 100%;
+                    width: 80px;
+                    font-size: 13px;
+                    color: #cacace;
+                    line-height: 35px;
+                    text-align: center;
+                }
+            
+                .line{
+                    margin-top: 17px;
+                    width: 130px;
+                    height: 1px;
+                    background: #cacace;
+                }
+            
+                
+            }
+
+            .load_btn{
+                // display: none;
+                margin: auto;
+                width: 340px;
+                height: 100%;
+                font-size: 18px;
+                font-weight: 600;
+                color: #000;
+                text-align: center;
+                line-height: 35px;
+                cursor: pointer;
+            }
+            
+        }
+
+
+    }
+}
+
+
+
+
+// 吸底菜单
+#menu_box{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height:90px;
+    background: red;
+    
+
+    .menu_box_content{
+        position: relative;
+        height: 90px;
+        img{
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .close_btn{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            width: 20px;
+            height: 20px;
+            background: grey;
+            border-radius: 50%;
+        }
+    }
+}
+
+#top_menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    background:#f11323;
+    .top_menu_inner{
+        margin: auto;
+        width: 1200px;
+        height: 100%;
+        .top_menu_logo{
+            float: left;
+            width: 101px;
+            height: 100%;
+            background: url(../images/logo.jpg) no-repeat 0 0;
+            background-size: 100%;
+        }
+        .top_menu_search{
+            float: left;
+            margin-left: 175px;
+            height: 100%;
+
+            .search_text{
+                float: left;
+                margin-left: 10px;
+                margin-top: 7px;
+                width: 475px;
+                height: 40px;
+                background: #fff;
+                border: none;
+                border-radius: 18px;
+
+            }
+            .s_btn{
+                display: block;
+                float: left;
+                margin-left: 20px;
+                width: 50px;
+                height: 100%;
+                font-size: 16px;
+                color: #fff;
+                line-height: 54px;
+            }
+
+        }
+    }
+
+    
+
+}
+
+

@@ -1,0 +1,26 @@
+#main { width: 100%; height: auto; }
+#main .main_inner { margin: auto; width: 1200px; height: auto; }
+#main .main_inner .location_box { margin-bottom: 20px; height: 58px; border-bottom: 1px solid #cccccc; line-height: 57px; }
+#main .main_inner .location_box a { font-size: 12px; color: #000; margin-left: 20px; margin-right: 20px; }
+#main .main_inner .location_box a:hover { color: red; }
+#main .main_inner .location_box .home_btn { margin-right: 12px; margin-left: 0; }
+#main .main_inner .location_box span { font-size: 12px; color: #000; }
+#main .main_inner .sort_box { margin-bottom: 25px; height: 42px; border: 1px solid #e4e4e4; background: #fbfbfb; }
+#main .main_inner .sort_box .left { height: 100%; }
+#main .main_inner .sort_box .left .sort_title { width: 87px; height: 100%; border-right: 1px solid #e4e4e4; border-left: 1px solid #e4e4e4; background: #fff; font-size: 11px; color: #df0010; text-align: center; line-height: 40px; }
+#main .main_inner .sort_box .left .sort_type { height: 100%; }
+#main .main_inner .sort_box .left .sort_type li { float: left; padding-top: 15px; margin-left: 29px; height: 100%; }
+#main .main_inner .sort_box .left .sort_type li a { display: block; float: left; height: 14px; font-size: 11px; color: #999999; text-align: center; line-height: 14px; }
+#main .main_inner .sort_box .left .sort_type li i { display: block; float: left; width: 18px; height: 14px; background: url(../images/icon_list.png) no-repeat 0 0; }
+#main .main_inner .sort_box .left .sort_type li .sale_btn { height: 14px; }
+#main .main_inner .sort_box .left .sort_type li .sale_btn span { display: block; float: left; height: 14px; font-size: 11px; color: #999999; text-align: center; line-height: 14px; }
+#main .main_inner .sort_box .left .sort_type li .sale_btn i { cursor: pointer; }
+#main .main_inner .sort_box .left .sort_type li .default_icon_active { background-position: -87px -618px; }
+#main .main_inner .sort_box .left .sort_type li .default_icon { background-position: -86px -687px; }
+#main .main_inner .sort_box .left .sort_type li .price_icon { background-position: -86px -687px; }
+#main .main_inner .sort_box .left .sort_type li .price_icon_active { background-position: -87px -618px; }
+#main .main_inner .sort_box .left .sort_type li .sale_icon { background-position: -153px -651px; }
+#main .main_inner .sort_box .left .sort_type li .sale_icon_asc { background-position: -283px -651px; }
+#main .main_inner .sort_box .left .sort_type li .sale_icon_desc { background-position: -215px -651px; }
+
+/*# sourceMappingURL=list.css.map */

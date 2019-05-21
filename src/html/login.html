@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login_register.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div id="login">
+        <div id="head_box"></div>
+        <div id="main">
+            <div class="main_inner clearfix">
+                <div class="left fl">
+                    <div class="left_pic">
+                        <img src="../images/05657833806768851.jpg" alt="">
+                    </div>
+                </div>
+                <div class="right fl">
+                    <div class="right_login">
+                        <div class="login_title">
+                            <h2 class="login_title_h2 fl">登录快乐购</h2>
+                            <div class="register_box fr">
+                                <span>还没有快乐购账号</span>
+                                <a href="javascript:;" id="register_btn">快速注册</a>
+                            </div>
+                        </div>
+                        <form action="">
+                            <div class="login_method">
+                                <p class="method1 fl" id="login1">
+                                    <input type="radio" name="login" checked>快捷登录
+                                </p>
+                                <p class="method2 fl" id="login2">
+                                    <input type="radio" name="login" id="login2">普通密码登录
+                                </p>
+
+                            </div>
+                            <div class="login_box1" id="loginbox1">
+                                <div class="phone_box">
+                                    <input type="number" id="phone" class="phone" placeholder="请输入手机号">
+                                    <p class="err_msg" id="phone_err_msg"></p>
+                                </div>
+                                <div class="sms_verification_code">
+                                    <div class="sms_verification_code_inner">
+                                        <input type="text" id="sms_verify" placeholder="请输入短信验证码" class="sms_verification_code_text">
+                                        <input type="button" id="get_sms_verify_btn" value="获取验证码" class="get_btn">
+                                    </div>
+                                    <p class="err_msg" id="sms_verify_err_msg"></p>
+                                </div>
+                                <a href="javascript:;" class="login_btn" id="login_btn">立即登录</a>
+                                <div class="other_login_methods">
+                                    <p>您可以使用以下账号登录</p>
+                                    <ul class="login_method_list">
+                                        <li>
+                                            <a href="javascript:;"></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;"></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;"></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="login_box2" id="loginbox2">
+                                <div class="phone_box">
+                                    <input type="number" class="phone" id="phone2" placeholder="已验证手机/邮箱/用户名">
+                                    <p class="err_msg" id="phone_err_msg2"></p>
+                                </div>
+                                <div class="psw_box">
+                                    <input type="text" class="psw" id="psw" placeholder="请输入密码">
+                                    <p class="err_msg" id="psw_err_msg"></p>
+                                </div>
+                                <div class="verification_code">
+                                    <div class="verification_code_inner">
+                                        <input type="text" class="verification_code_text" id="code_input" value="">
+                                        <div id="v_container" class="verify_img">
+                                            <canvas id="verifyCanvas"></canvas>
+                                        </div>
+                                    </div>
+                                    <p class="err_msg" id="verify_err_msg"></p>
+                                </div>
+                                <div class="remember_username_box">
+                                    <p>
+                                        <input type="checkbox" checked id="agree">记住用户名
+                                    </p>
+                                    <a href="javascript:;">忘记密码？</a>
+                                </div>
+                                <a href="javascript:;" class="login_btn" id="login_btn2">立即登录</a>
+                                <ul class="login_method_list">
+                                    <li>
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"></a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="foot_box"></div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/common.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/jquery-1.10.1.min.js" charset="UTF-8"></script>
+
+<script type="text/javascript" charset="UTF-8">
+    (function () {
+        $('#head_box').load('login_register_head.html', function () {
+            // 查找元素节点
+            var head = document.getElementById('head');
+            var logo = head.querySelector(".head_logo");
+            //事件绑定
+            logo.onclick = function () {
+                location.href = "../index1.html";
+            }
+
+        });
+
+        $('#foot_box').load('login_register_foot.html', function () {
+
+
+        })
+
+
+    })();
+
+</script>
+<script type="text/javascript" src="../js/verificationCode.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../js/login.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    (function () {
+        var verifyCode = new GVerify("v_container");
+        login(verifyCode);
+    })();
+</script>
+
+</html>

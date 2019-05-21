@@ -1,0 +1,18 @@
+#head { padding-top: 33px; padding-bottom: 27px; }
+#head .head_inner { margin: auto; width: 1103px; height: 75px; }
+#head .head_inner .head_logo { float: left; width: 80px; height: 100%; }
+#head .head_inner .head_logo a { display: block; width: 100%; height: 100%; font-size: 15px; color: #000; line-height: 75px; text-align: center; text-indent: -999px; background: url(../images/logo.jpg) no-repeat 0 0; background-size: 80px 75px; }
+#head .head_inner .head_right { float: right; margin-top: 21px; width: 532px; height: 32px; background: url(../images/top_center.jpg) no-repeat 0 0; background-size: 532px 32px; }
+
+#foot { height: 215px; }
+#foot .foot_inner { margin: auto; padding-top: 32px; width: 1103px; }
+#foot .foot_inner .contact { margin-bottom: 8px; height: 19px; text-align: center; }
+#foot .foot_inner .contact span { font-size: 13px; color: #8b8b8b; line-height: 19px; }
+#foot .foot_inner .license { margin-bottom: 37px; height: 19px; text-align: center; }
+#foot .foot_inner .license span { font-size: 13px; color: #8b8b8b; line-height: 19px; }
+#foot .foot_inner .bottom_box { margin: auto; width: 696px; height: 45px; }
+#foot .foot_inner .bottom_box a { display: block; width: 304px; height: 100%; float: left; }
+#foot .foot_inner .bottom_box a img { width: 100%; height: 100%; border: none; }
+#foot .foot_inner .bottom_box a:nth-child(1) { margin-right: 88px; }
+
+/*# sourceMappingURL=login_register.css.map */

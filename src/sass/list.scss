@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+#main{
+    width: 100%;
+    height: auto;
+
+    .main_inner{
+        margin: auto;
+        width: 1200px;
+        height: auto;
+
+        //搜索
+        .location_box{
+            margin-bottom: 20px;
+            height: 58px;
+            border-bottom: 1px solid #cccccc;
+            line-height: 57px;
+            
+            a{
+                font-size: 12px;
+                color: #000;
+                margin-left: 20px;
+                margin-right: 20px;
+
+                &:hover{
+                    color: red;
+                }
+            }
+
+            .home_btn{
+                margin-right: 12px;
+                margin-left: 0;
+            }
+
+            span{
+                font-size: 12px;
+                color: #000;
+            }
+
+        }
+
+        //排序
+        .sort_box{
+            margin-bottom: 25px;
+            height: 42px;
+            border: 1px solid #e4e4e4;
+            background: #fbfbfb;
+
+            //左边 标题
+            .left{
+                height: 100%;
+
+                //排序
+                .sort_title{
+                    width: 87px;
+                    height: 100%;
+                    border-right: 1px solid #e4e4e4;
+                    border-left: 1px solid #e4e4e4;
+                    background: #fff;
+                    font-size: 11px;
+                    color: #df0010;
+                    text-align: center;
+                    line-height: 40px;
+                }
+
+                //排序类型
+                .sort_type{
+                    height: 100%;
+
+                    li{
+                        float: left;
+                        padding-top: 15px;
+                        margin-left: 29px;
+                        height: 100%;
+
+                        a{ 
+                            display: block;
+                            float: left;
+                            height: 14px;
+                            font-size: 11px;
+                            color: #999999;
+                            text-align: center;
+                            line-height: 14px;
+                        }
+
+                        i{
+                            display:block;
+                            float: left;
+                            width: 18px;
+                            height: 14px;
+                            background: url(../images/icon_list.png) no-repeat 0 0;
+                            
+                        }
+
+                        .sale_btn{
+                            height: 14px;
+                            span{
+                                display: block;
+                                float: left;
+                                height: 14px;
+                                font-size: 11px;
+                                color: #999999;
+                                text-align: center;
+                                line-height: 14px;
+                            }
+                            i{
+                                cursor: pointer;
+                            }
+                            
+
+                        }
+
+                        // icon位置
+                        .default_icon_active{
+                            background-position: -87px -618px;
+                        }
+                        .default_icon{
+                            background-position: -86px -687px;
+                        }
+    
+
+                        .price_icon{
+                            background-position: -86px -687px;
+                        }
+                        .price_icon_active{
+                            background-position: -87px -618px;
+                        }
+
+                        .sale_icon{
+                            background-position: -153px -651px;
+                        }
+                        .sale_icon_asc{//升序
+                            background-position: -283px -651px;
+                        }
+                        .sale_icon_desc{//降序
+                            background-position: -215px -651px;
+                        }
+                        
+
+                    }
+                    
+
+                   
+
+
+                }
+
+
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+#main { margin-bottom: 50px; }
+#main .main_inner { margin: auto; width: 1200px; background: #fff; }
+#main .main_inner .main_top { margin-bottom: 20px; height: 58px; border-bottom: 1px solid #cccccc; line-height: 57px; }
+#main .main_inner .main_top a { font-size: 12px; color: #000; margin-left: 20px; margin-right: 20px; }
+#main .main_inner .main_top a:hover { color: red; }
+#main .main_inner .main_top .home_btn { margin-right: 12px; margin-left: 0; }
+#main .main_inner .main_top span { font-size: 12px; color: #000; }
+#main .main_inner .main_center { padding-bottom: 20px; }
+#main .main_inner .main_center .left { margin-right: 27px; width: 424px; height: auto; }
+#main .main_inner .main_center .left .goods_big_pic { margin-bottom: 19px; width: 420px; height: 420px; border: 1px solid #e5e5e5; }
+#main .main_inner .main_center .left .goods_big_pic img { width: 100%; height: 100%; border: none; }
+#main .main_inner .main_center .left .goods_small_pic { margin-bottom: 25px; width: 100%; height: 66px; }
+#main .main_inner .main_center .left .goods_small_pic .prev_btn { display: block; float: left; margin-top: 22px; width: 16px; height: 27px; background: url(../images/detail_icon_list.png) no-repeat 0 -372px; }
+#main .main_inner .main_center .left .goods_small_pic .pic_list { float: left; height: 100%; width: 385px; overflow: hidden; }
+#main .main_inner .main_center .left .goods_small_pic .pic_list li { float: left; margin-left: 11px; width: 66px; height: 66px; border: 1px solid #e6e6e6; }
+#main .main_inner .main_center .left .goods_small_pic .pic_list li a { display: block; width: 100%; height: 100%; }
+#main .main_inner .main_center .left .goods_small_pic .pic_list li a img { display: block; margin: auto; width: 60px; height: 60px; border: none; }
+#main .main_inner .main_center .left .goods_small_pic .pic_list li:hover { border: 2px solid #c72d46; }
+#main .main_inner .main_center .left .goods_small_pic .next_btn { display: block; float: right; margin-top: 22px; width: 16px; height: 27px; background: url(../images/detail_icon_list.png) no-repeat -21px -372px; }
+#main .main_inner .main_center .left .goods_collect { height: 24px; }
+#main .main_inner .main_center .left .goods_collect .number { margin-right: 25px; height: 100%; }
+#main .main_inner .main_center .left .goods_collect .number dt { float: left; margin-right: 5px; height: 100%; font-size: 13px; color: #b8b8b8; line-height: 24px; }
+#main .main_inner .main_center .left .goods_collect .number dd { float: left; height: 100%; font-size: 11px; color: #b8b8b8; line-height: 24px; }
+#main .main_inner .main_center .left .goods_collect .collect { margin-bottom: 26px; height: 100%; }
+#main .main_inner .main_center .left .goods_collect .collect a { display: block; height: 100%; }
+#main .main_inner .main_center .left .goods_collect .collect a .icon { display: block; float: left; margin-top: 3px; margin-right: 4px; width: 18px; height: 18px; background: url(../images/detail_icon_list.png) no-repeat -30px -308px; }
+#main .main_inner .main_center .left .goods_collect .collect a span { display: block; float: left; height: 100%; font-size: 14px; color: #908d96; line-height: 24px; text-align: center; }
+#main .main_inner .main_center .right { padding-top: 12px; width: 617px; }
+#main .main_inner .main_center .right .goods_name { margin-bottom: 17px; height: auto; font-size: 19px; color: #000; line-height: 23px; }
+#main .main_inner .main_center .right .goods_describe { margin-bottom: 10px; height: auto; font-size: 14p; color: #c41f3a; line-height: 18px; }
+#main .main_inner .main_center .right .goods_price { padding-left: 10px; height: 81px; border-bottom: 1px dashed #f0dde1; background: #fefafb; }
+#main .main_inner .main_center .right .goods_price span { display: block; float: left; height: 100%; }
+#main .main_inner .main_center .right .goods_price .price_title { width: 83px; font-size: 13px; color: #6666; line-height: 83px; }
+#main .main_inner .main_center .right .goods_price .current_price { margin-right: 12px; font-size: 33px; color: #df0010; line-height: 67px; font-weight: 600; }
+#main .main_inner .main_center .right .goods_price .origin_price { font-size: 11px; color: #999; line-height: 89px; }
+#main .main_inner .main_center .right .goods_freight { padding-left: 10px; margin-bottom: 11px; height: 50px; border-bottom: 1px solid #dedede; }
+#main .main_inner .main_center .right .goods_freight span { display: block; float: left; height: 100%; line-height: 49px; font-size: 13px; }
+#main .main_inner .main_center .right .goods_freight .freight_title { width: 83px; color: #666; }
+#main .main_inner .main_center .right .goods_freight .freight { color: #000; }
+#main .main_inner .main_center .right .goods_feature { padding-left: 10px; }
+#main .main_inner .main_center .right .goods_feature .color { margin-bottom: 10px; height: auto; }
+#main .main_inner .main_center .right .goods_feature .color .color_title { display: block; float: left; height: 35px; width: 83px; font-size: 14px; color: #666; line-height: 35px; }
+#main .main_inner .main_center .right .goods_feature .color .color_list { float: left; height: auto; width: 523px; }
+#main .main_inner .main_center .right .goods_feature .color .color_list li { position: relative; float: left; margin-right: 10px; margin-bottom: 10px; height: 35px; width: 64px; border: 2px solid #f11d20; text-align: center; line-height: 31px; }
+#main .main_inner .main_center .right .goods_feature .color .color_list li a { font-size: 12px; color: #000; }
+#main .main_inner .main_center .right .goods_feature .color .color_list li b { display: block; position: absolute; bottom: 0; right: 0; width: 13px; height: 13px; background: url(../images/detail_icon_list.png) no-repeat -86px -1px; }
+#main .main_inner .main_center .right .goods_feature .size { margin-bottom: 10px; height: auto; }
+#main .main_inner .main_center .right .goods_feature .size .size_title { display: block; float: left; height: 35px; width: 83px; font-size: 14px; color: #666; line-height: 35px; }
+#main .main_inner .main_center .right .goods_feature .size .size_list { float: left; height: auto; width: 523px; }
+#main .main_inner .main_center .right .goods_feature .size .size_list li { position: relative; float: left; margin-right: 10px; margin-bottom: 10px; height: 35px; width: 64px; border: 2px solid #f11d20; text-align: center; line-height: 31px; }
+#main .main_inner .main_center .right .goods_feature .size .size_list li a { font-size: 12px; color: #000; }
+#main .main_inner .main_center .right .goods_feature .size .size_list li b { display: block; position: absolute; bottom: 0; right: 0; width: 13px; height: 13px; background: url(../images/detail_icon_list.png) no-repeat -86px -1px; }
+#main .main_inner .main_center .right .goods_feature .num { margin-bottom: 10px; height: auto; }
+#main .main_inner .main_center .right .goods_feature .num .num_title { display: block; float: left; height: 35px; width: 83px; font-size: 14px; color: #666; line-height: 35px; }
+#main .main_inner .main_center .right .goods_feature .num .num_box { float: left; margin-bottom: 32px; height: 38px; border: 1px solid #d5d5d5; }
+#main .main_inner .main_center .right .goods_feature .num .num_box a { display: block; float: left; width: 36px; height: 36px; background: #fff; font-size: 14px; color: #9a9b9d; text-align: center; line-height: 36px; }
+#main .main_inner .main_center .right .goods_feature .num .num_box .reduce { border-right: 1px solid #d5d5d5; }
+#main .main_inner .main_center .right .goods_feature .num .num_box .add { border-left: 1px solid #d5d5d5; }
+#main .main_inner .main_center .right .goods_feature .num .num_box .num_input { display: block; float: left; width: 69px; height: 36px; border: none; font-size: 14px; color: #000; line-height: 36px; text-align: center; }
+#main .main_inner .main_center .right .cart_box .cart { margin-left: 10px; height: 45px; }
+#main .main_inner .main_center .right .cart_box .cart a { display: block; float: left; width: 154px; border: 2px solid #f12b2d; font-size: 18px; text-align: center; line-height: 41px; }
+#main .main_inner .main_center .right .cart_box .cart .buy { margin-right: 18px; color: #fff; background: #f11d20; }
+#main .main_inner .main_center .right .cart_box .cart .add_cart { color: #f11d20; background: #ffff; }
+#main .main_inner .main_center .right .cart_box .prompt_msg { width: 337px; font-size: 14px; color: #000; line-height: 22px; }
+#main .main_inner .main_bottom .left { width: 198px; float: left; height: 100%; }
+#main .main_inner .main_bottom .left .left_inner { width: 100%; height: auto; border: 1px solid #e5e5e5; }
+#main .main_inner .main_bottom .left .left_inner img { width: 196px; height: 2779px; border: none; }
+#main .main_inner .main_bottom .right { float: right; width: 976px; height: auto; border: 1px solid #e5e5e5; }
+#main .main_inner .main_bottom .right .right_top { width: 100%; height: auto; }
+#main .main_inner .main_bottom .right .right_top img { width: 974px; height: 4465px; border: none; }
+#main .main_inner .main_bottom .right .right_bottom { width: 100%; height: auto; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_title { height: 35px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_title h2 { height: 100%; width: 111px; background: #333333; font-size: 17px; color: #fff; text-align: center; line-height: 35px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content { padding-left: 48px; padding-right: 41px; padding-top: 31px; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_title { height: 21px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_title p { float: left; height: 100%; font-size: 13px; color: #000; line-height: 21px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_title p:nth-child(1) { margin-right: 40px; width: 582px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_title p:nth-child(2) { margin-right: 55px; width: 120px; text-align: center; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list { height: auto; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item { padding-top: 20px; padding-bottom: 20px; min-height: 110px; height: auto; border-bottom: 1px solid #e5e5e5; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .content_box { margin-right: 40px; width: 582px; height: 100%; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .content_box .liuyan { margin-bottom: 2px; font-size: 12px; color: #000; line-height: 20px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .content_box .time { font-size: 9px; color: #a0a0a0; line-height: 15px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .level_box { margin-right: 55px; width: 120px; height: 100%; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .level_box .level { height: 8px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .level_box .level i { display: block; float: left; margin-right: 7px; width: 17px; height: 100%; background: url(../images/detail_icon_list.png) no-repeat -87px -121px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .user_infos_box { height: 100%; width: 50px; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .user_infos_box .user_pic { width: 50px; height: 50px; border-radius: 50%; background: url(../images/user_center_img4.jpg) no-repeat center center; background-size: 100%; }
+#main .main_inner .main_bottom .right .right_bottom .liuyanban_content .liuyanban_list .liuyanban_item .user_infos_box .user_name { font-size: 9px; color: #000; text-align: center; line-height: 17px; }
+
+/*# sourceMappingURL=detail.css.map */
